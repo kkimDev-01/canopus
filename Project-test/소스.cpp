@@ -5,6 +5,7 @@ using namespace std;
 
 int main() {
 
+	/*
 	int n_int = INT_MAX;
 	short n_short = SHRT_MAX;
 	long n_long = LONG_MAX;
@@ -37,6 +38,25 @@ int main() {
 	int f = 3.14;
 
 	cout << e << " " << f << endl;
+	*/
+
+	/*
+	int a = 77;
+	char b = a;
+	char c = 'a';
+
+	cout << b << endl;
+	cout << c << endl;
+	*/
+
+	bool a = 0;
+	bool b = 1;
+	bool c = 10;
+
+	cout << a << endl;
+	cout << b << endl;
+	cout << c << endl;
+
 
 	return 0;
 }
