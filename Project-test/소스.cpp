@@ -1,9 +1,28 @@
 #include <iostream>
-#include <climits>
 
 using namespace std;
 
 int main() {
+	
+	
+	int a = 3.141592;
+	cout << a << endl;
+
+	char ch = 'M';
+
+	cout << static_cast<int>(ch) << " " << (int)ch << " " << int(ch) << endl;
+
+
+	
+	
+	/*
+	const float PIE = 3.1415926535;
+
+	int r = 3;
+	float s = r * r * PIE;
+
+	cout<< s <<endl;
+	*/
 
 	/*
 	int n_int = INT_MAX;
@@ -49,6 +68,7 @@ int main() {
 	cout << c << endl;
 	*/
 
+	/*
 	bool a = 0;
 	bool b = 1;
 	bool c = 10;
@@ -56,7 +76,7 @@ int main() {
 	cout << a << endl;
 	cout << b << endl;
 	cout << c << endl;
-
+	*/
 
 	return 0;
 }
