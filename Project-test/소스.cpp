@@ -4,14 +4,32 @@ using namespace std;
 
 int main() {
 	
+
+	auto n = 100;  //int
+	auto x = 1.5;  // float
+	auto y = 1.3e12L;  // long long
+
+
+
+	/*
+	int a = 10;
+	int b = 3;
+	int c = 5;
+
+	int multiple = a / b * c;
+
+	cout << multiple << endl;
+	*/
 	
+
+	/*
 	int a = 3.141592;
 	cout << a << endl;
 
 	char ch = 'M';
 
 	cout << static_cast<int>(ch) << " " << (int)ch << " " << int(ch) << endl;
-
+	*/
 
 	
 	
